@@ -1,0 +1,14 @@
+@media print {
+    @page { margin: 0; }
+
+    body * {
+        visibility: hidden;
+    }
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+    }
+    #section-to-print {
+        margin-top: 350px;
+        transform: scale(2);
+    }
+}
