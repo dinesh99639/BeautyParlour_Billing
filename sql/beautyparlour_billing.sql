@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 26, 2021 at 04:02 PM
+-- Generation Time: Apr 02, 2021 at 08:27 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -42,7 +42,8 @@ CREATE TABLE `receipts` (
 
 INSERT INTO `receipts` (`rid`, `timestamp`, `name`, `phone`, `servicesObtained`, `total`) VALUES
 (6, '2021-03-23 11:50:15', 'dinesh99639', '8106313275', '[[\"Service 2\",\"150\"]]', 152),
-(7, '2021-03-26 10:05:41', '', '', '[[\"ok2\",\"12\"],[\"test\",\"10\"]]', 24);
+(7, '2021-03-26 10:05:41', '', '', '[[\"ok2\",\"12\"],[\"test\",\"10\"]]', 24),
+(8, '2021-03-27 16:09:33', '', '', '[[\"12\",\"12\"],[\"Service 1\",\"125\"]]', 139);
 
 -- --------------------------------------------------------
 
@@ -117,7 +118,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `receipts`
 --
 ALTER TABLE `receipts`
-  MODIFY `rid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `rid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `services`

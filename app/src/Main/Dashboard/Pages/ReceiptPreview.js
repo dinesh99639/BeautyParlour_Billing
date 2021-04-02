@@ -116,7 +116,7 @@ class ReceiptPreview extends React.Component {
                                     <p style={{margin: 0}}>Phone Number</p>
                                 </Grid>
                                 <Grid item xs={4} style={{textAlign: "right"}}>
-                                    <img alt="Company logo" src="/beautyParlour.png" style={{height: "100px", width: "100px"}}></img>
+                                    <img alt="Company logo" src="./beautyParlour.png" style={{height: "100px", width: "100px"}}></img>
                                 </Grid>
                             </Grid>
 
